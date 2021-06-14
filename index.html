@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Events Happening in college</title>
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assests/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assests/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assests/favicon-16x16.png"> -->
+    <link rel="manifest" href="assests/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="calendar.html">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="signup.html">
+    </head>
+    <body>
+        <header>
+            <div class="top">
+                <h1>Events happening in college</h1>
+            </div>
+           
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="font-size: 20px;">MUevents</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active" style="font-size: 20px;"><a href="index.html">Home</a></li>
+                    <li style="font-size: 20px;"><a href="calendar.html">Events Calendar</a></li>
+                    <li style="font-size: 20px;"><a href="about.html">About Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li style="font-size: 20px;"><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li style="font-size: 20px;"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+            </nav>
+            <main>
+                <section>
+                    <h2><span>College Event Video Gallery</span></h2>
+                        <div class="videos" data-flickity='{ "wrapAround": true }'>
+                            <div class="videos-cell"><video src="videos/Coke Studio.mp4" width="100%" controls></video></div>
+                            <div class="videos-cell"><video src="videos/Hardy Sandhu.mp4" width="100%" controls></video></div>
+                            <div class="videos-cell"><video src="videos/Ranbir Kapoor.mp4" width="100%" controls></video></div>
+                            <div class="videos-cell"><video src="videos/Shirley.mp4" width="100%" controls></video></div>
+
+                        </div>
+                </section>
+                <section>
+                    <h2><span>College Event Photo Gallery</span></h2>
+                    <div class="images" data-flickity='{ "wrapAround": true }'>
+                        <img class="images-cell" width="100%" src="images/tomm1.jpg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        <img class="images-cell" width="100%" src="images/tomm3.png" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        <img class="images-cell" width="100%" src="images/conf.png" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        <img class="images-cell" width="100%" src="images/milan.jpg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </div>
+                    <!-- <div class="sm-handle">
+
+                        <a class="yt_handle" href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-lg"></i>YouTube</a>
+
+                        <a class="insta_handle" href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
+
+                    </div> -->
+                    <div id="background-wrap">
+                        <div class="bubble x1"></div>
+                        <div class="bubble x2"></div>
+                        <div class="bubble x3"></div>
+                        <div class="bubble x4"></div>
+                        <div class="bubble x5"></div>
+                        <div class="bubble x6"></div>
+                        <div class="bubble x7"></div>
+                        <div class="bubble x8"></div>
+                        <div class="bubble x9"></div>
+                        <div class="bubble x10"></div>
+                    </div>
+                </section>
+
+            </main>
+            
+
+        </header>
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#" class="flex-align-right">&copy; 2021 || College Events</a>
+        </footer>
+        <!-- JavaScript -->
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    </body>
+</html>
